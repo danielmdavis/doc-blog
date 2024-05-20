@@ -1,5 +1,5 @@
 import PageBox from './pageBox.tsx'
-import secret from './secret.tsx'
+import secret from './.gitignore/secret.jsx'
 {/* <script src="https://apis.google.com/js/api.js"></script> */}
 
 // import 'https://apis.google.com/js/api.js'
