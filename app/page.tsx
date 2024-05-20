@@ -1,4 +1,5 @@
 import PageBox from './pageBox.tsx'
+import secret from './secret.tsx'
 {/* <script src="https://apis.google.com/js/api.js"></script> */}
 
 // import 'https://apis.google.com/js/api.js'
@@ -8,15 +9,9 @@ import PageBox from './pageBox.tsx'
 const API_KEY = 'AIzaSyCHfMo2Y2iP7FOHzZb7fys8KG_RA45vM-k'
 const CLIENT_ID = '569826233667-fra6jdo9lf2htqtdcseeeip96gifpnb3.apps.googleusercontent.com'
 
-// const oauth2Client = new google.auth.OAuth2(
-//   '569826233667-fra6jdo9lf2htqtdcseeeip96gifpnb3.apps.googleusercontent.com',
-//   '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',
-//   'http://localhost:3000/oauth2callback'
-// )
-// const url = oauth2Client.generateAuthUrl({
+// const url = secret.generateAuthUrl({
 //   scope: 'https://www.googleapis.com/auth/drive'
 // })
-
 
 // function authenticate() {
 //   return gapi.auth2.getAuthInstance()
