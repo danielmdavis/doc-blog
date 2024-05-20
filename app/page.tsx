@@ -9,6 +9,9 @@ import secret from './.gitignore/secret.jsx'
 const API_KEY = 'AIzaSyCHfMo2Y2iP7FOHzZb7fys8KG_RA45vM-k'
 const CLIENT_ID = '569826233667-fra6jdo9lf2htqtdcseeeip96gifpnb3.apps.googleusercontent.com'
 
+// const url = secret.generateAuthUrl({
+//   scope: 'https://www.googleapis.com/auth/drive'
+// })
 
 // function authenticate() {
 //   return gapi.auth2.getAuthInstance()
